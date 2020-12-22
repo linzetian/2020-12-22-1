@@ -19,8 +19,8 @@ class Student
 };
 int main()
 {
-	//定义类变量
-    Student b1;//和结构体不太一样，结构体可以加或者不加struct
+	//定义类变量，创建一个具体的学生
+        Student b1;//和结构体不太一样，结构体可以加或者不加struct
 	b1.s_name = "linzetain";
 	b1.s_number = "201511411321";
 	b1.print();//因为print是一个类，所以在调用时，需要加上变量b1
